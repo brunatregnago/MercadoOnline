@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mercado</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilo.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <div class="cabecalho">
+                <div class="row">
+                    <div class="col-md-2"><!--LOGO-->
+                        <img  src="img/logotemp.png"> 
+                    </div>
+                    <div class="col-md-8"><!--PESQUISAR do cabeçalho-->
+                        <form class="form-inline">
+                            <input class="form-control col-md-8" type="search" placeholder="Digite aqui o produto que você procura"> <!--src="img/pesquisar.png"-->
+                        </form>
+                    </div>
+                    <div class="col-md-2"><!--Link para cadastrar usuário-->
+                        <a href=""><img src="img/avatar.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--MENU-->
+
+        <nav class="navbar navbar-expand-lg navbar-light text-white">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li>
+                        <a href="">Promoções</a>
+                    </li>
+                    <li>
+                        <a href="">Mercearia</a>
+                    </li>
+                    <li>
+                        <a href="">Limpeza</a>
+                    </li>
+                    <li>
+                        <a href="">Carnes</a>
+                    </li>
+                    <li>
+                        <a href="">Bebidas</a>
+                    </li>
+                    <li>
+                        <a href="">Hortifruti</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Outras Categorias
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="promocao">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Promoções</h1>
+                        <hr>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="produto">
+                        <img src="img/profei.jpg">
+                        <h2>Nome do prod.</h2>
+                        <h5>000 ml</h5>
+                        <h4>R$ 00,00 un</h4>
+                        <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Local cadastro de clientes-->
+        <div class="cadastrar_se"> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h6>Informe-se sobre as promoções</h6>
+                        <form class="form-inline">
+                            <input class="form-control col-md-12" type="text" placeholder="Nome">
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+                        <form class="form-inline">
+                            <input class="form-control col-md-12" type="text" placeholder="ex: nome@email.com">
+                        </form>  
+                    </div>
+                    <div class="col-md-4">
+                        <button type="button" class="btn col-md-6" data-toggle="button" aria-pressed="false" autocomplete="off">Cadastre-se</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--CATEGORIA de protudos da mercearia HOME-->
+        <div class="engloba_cate_prod">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="categorias">
+                            <h1>Mercearia</h1>
+                            <ul>
+                                <li><a href="">Grãos</a></li>
+                                <li>Óleos, azeites e vinagres</li>
+                                <li>Temperos</li>
+                                <li>Farinhas</li>
+                                <li>Massas e molhos</li>
+                                <li>Doces e sobremesas</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="painel_produto">
+                            <div class="col-md-3">
+                                <div class="produto">
+                                    <img src="img/profei.jpg">
+                                    <h2>Nome do prod.</h2>
+                                    <h5>000 ml</h5>
+                                    <h4>R$ 00,00 un</h4>
+                                    <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--LINK POR IMAGEM PARA CATEGORIAS-->
+        <div class="prop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>Hortifruti</h2>
+                        <img class="col-md-12" src="img/horti.jpg" alt="Hortifruti">
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Laticínios</h2>
+                        <img class="col-md-12" src="img/latic.jpg" alt="Laticinios">
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Limpeza</h2>
+                        <img class="col-md-12" src="img/limpeza.jpg" alt="Limpeza">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--CATEGORIA bebidas HOME-->
+        <div class="engloba_cate_prod">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="categorias">
+                            <h1>Mercearia</h1>
+                            <ul>
+                                <li><a href="">Grãos</a></li>
+                                <li>Óleos, azeites e vinagres</li>
+                                <li>Temperos</li>
+                                <li>Farinhas</li>
+                                <li>Massas e molhos</li>
+                                <li>Doces e sobremesas</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="painel_produto">
+                            <div class="col-md-3">
+                                <div class="produto">
+                                    <img src="img/profei.jpg">
+                                    <h2>Nome do prod.</h2>
+                                    <h5>000 ml</h5>
+                                    <h4>R$ 00,00 un</h4>
+                                    <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--RODAPÉ PARA ADD NO PROJETO DESENVOLVIDO EM CASA :D-->
+        <div class="rodape">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h1>Categorias</h1>
+                        <ul>
+                            <li>Mercearia</li>
+                            <li>Ortifruti</li>
+                            <li>Higiene e beleza</li>
+                            <li>Limpeza</li>
+                            <li>Bebidas</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <ul>
+                            <li>Carnes</li>
+                            <li>Laticínios</li>
+                            <li>Congelados</li>
+                            <li>Materiais</li>
+                            <li>Especiais</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

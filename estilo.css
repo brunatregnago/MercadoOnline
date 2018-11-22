@@ -1,0 +1,134 @@
+.cabecalho{
+    background-color: white;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+}
+
+.cabecalho input{
+    border-radius: 20px;
+    margin: auto;
+}
+nav{
+    background-color: #00802b;
+}
+.nav ul li{
+    text-decoration: none;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+.promocao{
+    border: 1px solid darkgray;
+    height: 465px;
+    padding: 2%;
+    margin-top: 5%;
+}
+.promocao h1{
+    font-family: Helvetica, sans-serif;
+    font-size: 21px;
+    color: #00802b;
+    font-weight: bold;
+}
+.produto{
+    padding: 10%;
+}
+.produto img{
+    max-width: 95%;
+}
+.produto h2{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.produto h5{
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+}
+.produto h4{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+.produto button{
+    border-radius: 20px;
+    margin: auto;
+    color: white;
+    background-color: #009900;
+}
+hr{
+    background-color: darkgray;
+}
+.cadastrar_se{
+    margin-top: 5%;
+    padding: 2%;
+    background-color: #d9d9d9;
+}
+.cadastrar_se h6{
+    color:  #666666;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+.cadastrar_se button{
+    border-radius: 20px;
+    color: white;
+    background-color: #009900;
+}
+.engloba_cate_prod{
+    margin-top: 5%;
+}
+.categorias{
+    border: 1px solid darkgray;
+    padding: 3%;
+}
+.categorias h1{
+    font-family: Helvetica, sans-serif;
+    font-size: 21px;
+    color: #00802b;
+    font-weight: bold;
+    text-align: center;
+}
+.categorias ul li{
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2%;
+}
+.painel_produto{
+    border: 1px solid darkgray;
+}
+.prop{
+    margin-top: 5%;
+}
+.prop h2{
+    float: left;
+    font-family: Helvetica, sans-serif;
+    font-size: 21px;
+    color: #00802b;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.rodape{
+    background-color: #00802b;
+    margin-top: 5%;
+}
+.rodape h1{
+    color: #004d00;
+    font-size:14px;
+    font-family: Helvetica, sans-serif;
+}
+.rodape ul li{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Helvetica, sans-serif;
+}
