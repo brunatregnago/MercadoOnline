@@ -3,20 +3,26 @@
     height: 90px;
     line-height: 90px;
     text-align: center;
+    
 }
-
+.logo{
+    margin: -32px 0 0 -30px;
+}
 .cabecalho input{
     border-radius: 20px;
-    margin: auto;
+    margin: 3.5% 0 0 18%;
 }
 nav{
     background-color: #00802b;
 }
-.nav ul li{
+.menu ul li{
     text-decoration: none;
-    position: relative;
-    margin: auto;
+    margin: 0 25px;
     text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
 }
 .promocao{
     border: 1px solid darkgray;
@@ -29,6 +35,16 @@ nav{
     font-size: 21px;
     color: #00802b;
     font-weight: bold;
+}
+.back img{
+    max-width: 20px;
+    float: left;
+    margin-top: 150px;
+}
+.next img{
+    max-width: 20px;
+    float: right;
+    margin-top: 150px;
 }
 .produto{
     padding: 10%;
@@ -59,7 +75,7 @@ nav{
 }
 .produto button{
     border-radius: 20px;
-    margin: auto;
+    margin: auto 35px;
     color: white;
     background-color: #009900;
 }
@@ -76,31 +92,38 @@ hr{
     font-family: Helvetica, sans-serif;
     font-weight: bold;
 }
+.cadastrar_se form:nth-child(1){
+    margin-top: 27px;
+}
 .cadastrar_se button{
     border-radius: 20px;
     color: white;
     background-color: #009900;
+    margin-top: 26px;
 }
 .engloba_cate_prod{
     margin-top: 5%;
 }
 .categorias{
     border: 1px solid darkgray;
-    padding: 3%;
+    padding: 5%;
+    height: 100%;
 }
 .categorias h1{
     font-family: Helvetica, sans-serif;
-    font-size: 21px;
+    font-size: 18px;
     color: #00802b;
     font-weight: bold;
     text-align: center;
 }
-.categorias ul li{
-    text-decoration: none;
-    list-style: none;
+.categorias h2{
     font-weight: bold;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 5%;
+    font-size: 17px;
+    color: #4d4d4d;
+    font-family: Helvetica, sans-serif;
+    line-height: 25px;
 }
 .painel_produto{
     border: 1px solid darkgray;
@@ -119,16 +142,21 @@ hr{
 .rodape{
     background-color: #00802b;
     margin-top: 5%;
+    padding: 1%;
 }
 .rodape h1{
     color: #004d00;
-    font-size:14px;
+    font-size:16px;
     font-family: Helvetica, sans-serif;
+    margin-left:35px;
 }
 .rodape ul li{
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     text-decoration: none;
     list-style: none;
     font-family: Helvetica, sans-serif;
+}
+.rodape .cat{
+    margin-top: 25px;
 }
