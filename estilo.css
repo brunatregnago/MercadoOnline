@@ -36,11 +36,11 @@ nav{
     color: #00802b;
     font-weight: bold;
 }
-.promocao button{
-    margin: auto;
+.promocao .produto button{
+    margin-left: 55px;
 }
 .produto{
-    padding: 10%;
+    padding: 2%;
 }
 .produto img{
     max-width: 100%;
@@ -68,10 +68,9 @@ nav{
 }
 .produto button{
     border-radius: 20px;
-    margin: auto;
     color: white;
     background-color: #009900;
-    margin-left: 8px;
+    margin: 10px 0 0 14px;
 }
 hr{
     background-color: darkgray;
@@ -101,25 +100,23 @@ hr{
 .categorias{
     border: 1px solid darkgray;
     padding: 5%;
-    height: 388px;
-}
-.categorias:nth-child(2){
-    height: 300px;
+    height: 100%;
 }
 .categorias h1{
     font-family: Helvetica, sans-serif;
-    font-size: 21px;
+    font-size: 18px;
     color: #00802b;
     font-weight: bold;
     text-align: center;
 }
 .categorias h2{
-    font-family: Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
-    margin-top: 15%;
-    font-size: 18px;
-    color: darkgrey;
+    margin-top: 5%;
+    font-size: 17px;
+    color: #4d4d4d;
+    font-family: Helvetica, sans-serif;
+    line-height: 25px;
 }
 .painel_produto{
     border: 1px solid darkgray;
@@ -139,16 +136,17 @@ hr{
 .rodape{
     background-color: #00802b;
     margin-top: 5%;
+    padding: 1%;
 }
 .rodape h1{
     color: #004d00;
-    font-size:14px;
+    font-size:16px;
     font-family: Helvetica, sans-serif;
-    margin-left: 38px;
+    margin-left:35px;
 }
 .rodape ul li{
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     text-decoration: none;
     list-style: none;
     font-family: Helvetica, sans-serif;
@@ -167,6 +165,6 @@ hr{
 }
 .owl-bruna .owl-nav .owl-next{
    position: absolute;
-   right: 10px;
-   top:0px; 
+   right: 0px;
+   top:0px;
 }
