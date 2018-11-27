@@ -8,6 +8,7 @@
         <link href="owl.theme.default.min.css" rel="stylesheet" type="text/css"/>
         <link href="owl.carousel.min.css" rel="stylesheet" type="text/css"/>
         <link href="estilo.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     </head>
     <body>
         <div class="container">
@@ -18,13 +19,15 @@
                             <img  src="img/logotemp.png"> 
                         </div>
                     </div>
-                    <div class="col-md-8"><!--PESQUISAR do cabeçalho-->
+                    <div class="col-md-8 d-none d-md-block"><!--PESQUISAR do cabeçalho-->
                         <form class="form-inline">
                             <input class="form-control col-md-8" type="search" placeholder="Digite aqui o produto que você procura"> <!--src="img/pesquisar.png"-->
                         </form>
                     </div>
-                    <div class="col-md-2"><!--Link para cadastrar usuário-->
-                        <a href=""><img src="img/avatar.png"></a>
+                    <div class="col-md-2 d-none d-md-block"><!--Link para cadastrar usuário-->
+                        <a href="" class="user">
+                            <i class="far fa-user"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -32,6 +35,9 @@
         <!--MENU-->
         <div class="menu">
             <nav class="navbar navbar-expand-lg navbar-light text-white">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
                 <div class="container">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
@@ -81,7 +87,7 @@
                                 <h2>Nome do prod.</h2>
                                 <h5>000 ml</h5>
                                 <h4>R$ 00,00 un</h4>
-                                <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
+                                <center><button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button></center>
                             </div>
                         </div>
                         <div class="item">
@@ -90,7 +96,7 @@
                                 <h2>Nome do prod.</h2>
                                 <h5>000 ml</h5>
                                 <h4>R$ 00,00 un</h4>
-                                <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
+                                <center><button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button></center>
                             </div>
                         </div>
                         <div class="item">
@@ -99,7 +105,7 @@
                                 <h2>Nome do prod.</h2>
                                 <h5>000 ml</h5>
                                 <h4>R$ 00,00 un</h4>
-                                <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
+                                <center><button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button></center>
                             </div>
                         </div>
                         <div class="item">
@@ -108,7 +114,7 @@
                                 <h2>Nome do prod.</h2>
                                 <h5>000 ml</h5>
                                 <h4>R$ 00,00 un</h4>
-                                <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
+                                <center><button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button></center>
                             </div>
                         </div>
                         <div class="item">
@@ -117,7 +123,7 @@
                                 <h2>Nome do prod.</h2>
                                 <h5>000 ml</h5>
                                 <h4>R$ 00,00 un</h4>
-                                <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
+                                <center><button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button></center>
                             </div>
                         </div>
                         <div class="item">
@@ -126,7 +132,7 @@
                                 <h2>Nome do prod.</h2>
                                 <h5>000 ml</h5>
                                 <h4>R$ 00,00 un</h4>
-                                <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
+                                <center><button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button></center>
                             </div>
                         </div>
                         <div class="item">
@@ -135,7 +141,7 @@
                                 <h2>Nome do prod.</h2>
                                 <h5>000 ml</h5>
                                 <h4>R$ 00,00 un</h4>
-                                <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
+                                <center><button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button></center>
                             </div>
                         </div>
                     </div>
@@ -164,7 +170,7 @@
             </div>
         </div>
         <!--CATEGORIA de protudos da mercearia HOME-->
-        <div class="engloba_cate_prod">
+        <div class="engloba_cate_prod d-none d-md-block">
             <div class="container">
                 <div class="row">
                     <div class="col-md-2">
@@ -179,7 +185,7 @@
                         </div>
                     </div>
                     <div class="col-md-10">
-                        <div class="painel_produto">  
+                        <div class="painel_produto pt-5 pb-5">  
                             <div id="owl-demo" class="owl-carousel owl-theme owl-bruna">
                                 <div class="item">
                                     <div class="col-md-12" style="height: 292px;">
@@ -188,7 +194,7 @@
                                             <h2>Nome do prod.</h2>
                                             <h5>000 ml</h5>
                                             <h4>R$ 00,00 un</h4>
-                                            <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
+                                            <center><button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button></center>
                                         </div>
                                     </div>
                                 </div>
@@ -199,7 +205,7 @@
                                             <h2>Nome do prod.</h2>
                                             <h5>000 ml</h5>
                                             <h4>R$ 00,00 un</h4>
-                                            <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
+                                            <center><button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button></center>
                                         </div>
                                     </div>
                                 </div>
@@ -210,7 +216,7 @@
                                             <h2>Nome do prod.</h2>
                                             <h5>000 ml</h5>
                                             <h4>R$ 00,00 un</h4>
-                                            <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
+                                            <center><button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button></center>
                                         </div>
                                     </div>
                                 </div>
@@ -221,7 +227,7 @@
                                             <h2>Nome do prod.</h2>
                                             <h5>000 ml</h5>
                                             <h4>R$ 00,00 un</h4>
-                                            <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
+                                            <center><button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button></center>
                                         </div>
                                     </div>
                                 </div>
@@ -232,7 +238,7 @@
                                             <h2>Nome do prod.</h2>
                                             <h5>000 ml</h5>
                                             <h4>R$ 00,00 un</h4>
-                                            <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
+                                            <center><button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button></center>
                                         </div>
                                     </div>
                                 </div>
@@ -243,7 +249,7 @@
                                             <h2>Nome do prod.</h2>
                                             <h5>000 ml</h5>
                                             <h4>R$ 00,00 un</h4>
-                                            <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
+                                            <center><button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button></center>
                                         </div>
                                     </div>
                                 </div>
@@ -253,169 +259,169 @@
                 </div>
             </div>
         </div>
-            <!--LINK POR IMAGEM PARA CATEGORIAS-->
-            <div class="prop">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <h2>Hortifruti</h2>
-                            <img class="col-md-12" src="img/horti.jpg" alt="Hortifruti">
+        <!--LINK POR IMAGEM PARA CATEGORIAS-->
+        <div class="prop d-none d-md-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>Hortifruti</h2>
+                        <img class="col-md-12" src="img/horti.jpg" alt="Hortifruti">
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Laticínios</h2>
+                        <img class="col-md-12" src="img/latic.jpg" alt="Laticinios">
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Limpeza</h2>
+                        <img class="col-md-12" src="img/limpeza.jpg" alt="Limpeza">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--CATEGORIA bebidas HOME-->
+        <div class="engloba_cate_prod d-none d-md-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="categorias">
+                            <h1>Bebidas</h1>
+                            <h2>Refrigerantes</h2>
+                            <h2>Sucos e águas</h2>
+                            <h2>Cervejas</h2>
+                            <h2>Destilados</h2>
+                            <h2>Isotônicos e energéticos</h2>
+                            <h2>Vinhos</h2>
                         </div>
-                        <div class="col-md-4">
-                            <h2>Laticínios</h2>
-                            <img class="col-md-12" src="img/latic.jpg" alt="Laticinios">
-                        </div>
-                        <div class="col-md-4">
-                            <h2>Limpeza</h2>
-                            <img class="col-md-12" src="img/limpeza.jpg" alt="Limpeza">
+                    </div>
+                    <div class="col-md-10">
+                        <div class="painel_produto pt-5 pb-5">
+                            <div id="owl-demo" class="owl-carousel owl-theme owl-bruna">
+                                <div class="item">  
+                                    <div class="col-md-12">
+                                        <div class="produto">
+                                            <img src="img/profei.jpg">
+                                            <h2>Nome do prod.</h2>
+                                            <h5>000 ml</h5>
+                                            <h4>R$ 00,00 un</h4>
+                                            <center><button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button></center>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-12">
+                                        <div class="produto">
+                                            <img src="img/profei.jpg">
+                                            <h2>Nome do prod.</h2>
+                                            <h5>000 ml</h5>
+                                            <h4>R$ 00,00 un</h4>
+                                            <center><button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button></center>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-12">
+                                        <div class="produto">
+                                            <img src="img/profei.jpg">
+                                            <h2>Nome do prod.</h2>
+                                            <h5>000 ml</h5>
+                                            <h4>R$ 00,00 un</h4>
+                                            <center><button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button></center>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-12">
+                                        <div class="produto">
+                                            <img src="img/profei.jpg">
+                                            <h2>Nome do prod.</h2>
+                                            <h5>000 ml</h5>
+                                            <h4>R$ 00,00 un</h4>
+                                            <center><button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button></center>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item"> 
+                                    <div class="col-md-12">
+                                        <div class="produto">
+                                            <img src="img/profei.jpg">
+                                            <h2>Nome do prod.</h2>
+                                            <h5>000 ml</h5>
+                                            <h4>R$ 00,00 un</h4>
+                                            <center><button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button></center>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item"> 
+                                    <div class="col-md-12">
+                                        <div class="produto">
+                                            <img src="img/profei.jpg">
+                                            <h2>Nome do prod.</h2>
+                                            <h5>000 ml</h5>
+                                            <h4>R$ 00,00 un</h4>
+                                            <center><button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button></center>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--CATEGORIA bebidas HOME-->
-            <div class="engloba_cate_prod">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <div class="categorias">
-                                <h1>Bebidas</h1>
-                                <h2>Refrigerantes</h2>
-                                <h2>Sucos e águas</h2>
-                                <h2>Cervejas</h2>
-                                <h2>Destilados</h2>
-                                <h2>Isotônicos e energéticos</h2>
-                                <h2>Vinhos</h2>
-                            </div>
-                        </div>
-                        <div class="col-md-10">
-                            <div class="painel_produto">
-                                <div id="owl-demo" class="owl-carousel owl-theme owl-bruna">
-                                    <div class="item">  
-                                        <div class="col-md-12">
-                                            <div class="produto">
-                                                <img src="img/profei.jpg">
-                                                <h2>Nome do prod.</h2>
-                                                <h5>000 ml</h5>
-                                                <h4>R$ 00,00 un</h4>
-                                                <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                    <div class="col-md-12">
-                                        <div class="produto">
-                                            <img src="img/profei.jpg">
-                                            <h2>Nome do prod.</h2>
-                                            <h5>000 ml</h5>
-                                            <h4>R$ 00,00 un</h4>
-                                            <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                    <div class="item">
-                                    <div class="col-md-12">
-                                        <div class="produto">
-                                            <img src="img/profei.jpg">
-                                            <h2>Nome do prod.</h2>
-                                            <h5>000 ml</h5>
-                                            <h4>R$ 00,00 un</h4>
-                                            <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                    <div class="item">
-                                    <div class="col-md-12">
-                                        <div class="produto">
-                                            <img src="img/profei.jpg">
-                                            <h2>Nome do prod.</h2>
-                                            <h5>000 ml</h5>
-                                            <h4>R$ 00,00 un</h4>
-                                            <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                    <div class="item"> 
-                                        <div class="col-md-12">
-                                            <div class="produto">
-                                                <img src="img/profei.jpg">
-                                                <h2>Nome do prod.</h2>
-                                                <h5>000 ml</h5>
-                                                <h4>R$ 00,00 un</h4>
-                                                <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item"> 
-                                        <div class="col-md-12">
-                                            <div class="produto">
-                                                <img src="img/profei.jpg">
-                                                <h2>Nome do prod.</h2>
-                                                <h5>000 ml</h5>
-                                                <h4>R$ 00,00 un</h4>
-                                                <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">Visualizar</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        </div>
+        <!--RODAPÉ PARA ADD NO PROJETO DESENVOLVIDO EM CASA :D-->
+        <div class="rodape">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h1>Categorias</h1>
+                        <ul>
+                            <li>Mercearia</li>
+                            <li>Ortifruti</li>
+                            <li>Higiene e beleza</li>
+                            <li>Limpeza</li>
+                            <li>Bebidas</li>
+                        </ul>
                     </div>
-                </div>
-            </div>
-            <!--RODAPÉ PARA ADD NO PROJETO DESENVOLVIDO EM CASA :D-->
-            <div class="rodape">
-                <div class="container">
-                    <div class="row">
+                    <div class="cat">
                         <div class="col-md-2">
-                            <h1>Categorias</h1>
                             <ul>
-                                <li>Mercearia</li>
-                                <li>Ortifruti</li>
-                                <li>Higiene e beleza</li>
-                                <li>Limpeza</li>
-                                <li>Bebidas</li>
+                                <li>Carnes</li>
+                                <li>Laticínios</li>
+                                <li>Congelados</li>
+                                <li>Materiais</li>
+                                <li>Especiais</li>
                             </ul>
                         </div>
-                        <div class="cat">
-                            <div class="col-md-2">
-                                <ul>
-                                    <li>Carnes</li>
-                                    <li>Laticínios</li>
-                                    <li>Congelados</li>
-                                    <li>Materiais</li>
-                                    <li>Especiais</li>
-                                </ul>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
+        </div>
 
 
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-            <script src="owl.carousel.min.js"></script>
-            <script>
-                $('.owl-carousel').owlCarousel({
-                    loop: true,
-                    margin: 10,
-                    responsiveClass:true,
-                    nav: true,
-                    dots: false,
-                    responsive: {
-                        0: {
-                            items: 1
-                        },
-                        600: {
-                            items: 3
-                        },
-                        1000: {
-                            items: 5
-                        }
+        <script src="owl.carousel.min.js"></script>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                nav: true,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 5
                     }
-                });
-            </script>
+                }
+            });
+        </script>
     </body>
 </html>

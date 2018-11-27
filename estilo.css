@@ -26,7 +26,6 @@ nav{
 }
 .promocao{
     border: 1px solid darkgray;
-    height: 440px;
     padding: 2%;
     margin-top: 5%;
 }
@@ -35,9 +34,6 @@ nav{
     font-size: 21px;
     color: #00802b;
     font-weight: bold;
-}
-.promocao .produto button{
-    margin-left: 55px;
 }
 .produto{
     padding: 2%;
@@ -120,7 +116,6 @@ hr{
 }
 .painel_produto{
     border: 1px solid darkgray;
-    padding: 5%;
 }
 .prop{
     margin-top: 5%;
@@ -167,4 +162,18 @@ hr{
    position: absolute;
    right: 0px;
    top:0px;
+}
+.navbar-toggler{
+    border:none !important;
+    color:white !important;
+}
+.user{
+    color: darkgray;
+    font-size: 40px;
+}
+.user:hover{
+    color:#004d00;
+}
+center{
+    margin-left: -5%;
 }
