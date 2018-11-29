@@ -183,3 +183,9 @@ center{
     margin-left: 2%;
 }
 }
+@media only screen and (max-width: 600px) {
+    .menu ul li{
+        text-align: left !important;
+        margin-left: 0px !important;
+    }
+}
