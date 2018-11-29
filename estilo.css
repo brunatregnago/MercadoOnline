@@ -3,7 +3,6 @@
     height: 90px;
     line-height: 90px;
     text-align: center;
-    
 }
 .logo{
     margin: -32px 0 0 -30px;
@@ -176,4 +175,11 @@ hr{
 }
 center{
     margin-left: -5%;
+}
+@media only screen and (max-width: 600px) {
+    .owl-carousel{
+    z-index: 1;
+    width: 95%;
+    margin-left: 2%;
+}
 }
